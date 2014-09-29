@@ -44,6 +44,15 @@
         "ua_string": "Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "str": "GT-I9300 / Android 4.0.4 / Android 4.0.4"
     },
+    "galaxy_s5": {
+        "is_bot": false,
+        "is_mobile": true,
+        "is_pc": false,
+        "is_tablet": false,
+        "is_touch_capable": true,
+        "ua_string": "Mozilla/5.0 (Linux; Android 4.4.2; SM-G900W8 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 2014-09-26-09",
+        "str": "SM-G900W8 / Android 4.4.2 / Chrome Mobile 30"
+    },
     "galaxy_tab": {
         "is_bot": false,
         "is_mobile": true,
@@ -251,4 +260,3 @@
         "str": "PC / Windows RT / IE 10"
     }
 }
-
