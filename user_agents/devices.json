@@ -163,18 +163,18 @@
     },
     "opera_android_12": {
         "is_bot": false,
-        "is_mobile": false,
+        "is_mobile": true,
         "is_pc": false,
-        "is_tablet": true,
+        "is_tablet": false,
         "is_touch_capable": true,
         "ua_string": "Opera/12.02 (Android 4.1; Linux; Opera Mobi/ADR-1111101157; U; en-US) Presto/2.9.201 Version/12.02",
         "str": "Other / Android 4.1 / Opera Mobile 12.2"
     },
     "opera_android_11.10": {
         "is_bot": false,
-        "is_mobile": false,
+        "is_mobile": true,
         "is_pc": false,
-        "is_tablet": true,
+        "is_tablet": false,
         "is_touch_capable": true,
         "ua_string": "Opera/9.80 (Android 2.2.1; Linux; Opera Mobi/ADR-1107051709; U; pl) Presto/2.8.149 Version/11.10",
         "str": "Other / Android 2.2.1 / Opera Mobile 11.10"
@@ -190,9 +190,9 @@
     },
     "opera_android_10.1": {
         "is_bot": false,
-        "is_mobile": false,
+        "is_mobile": true,
         "is_pc": false,
-        "is_tablet": true,
+        "is_tablet": false,
         "is_touch_capable": true,
         "ua_string": "Opera/9.80 (Android; Linux; Opera Mobi/ADR-1012211514; U; en) Presto/2.6.35 Version/10.1",
         "str": "Other / Android / Opera Mobile 10.1"
