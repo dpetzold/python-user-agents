@@ -1,16 +1,6 @@
-import sys
 from collections import namedtuple
-
 from ua_parser import user_agent_parser
-
-
-PY2 = sys.version_info[0] == 2
-PY3 = sys.version_info[0] == 3
-
-if PY3:
-    string_types = str
-else:
-    string_types = basestring
+from user_agents.compat import string_types
 
 
 MOBILE_DEVICE_FAMILIES = (
@@ -19,6 +9,11 @@ MOBILE_DEVICE_FAMILIES = (
     'Generic Smartphone',
     'Generic Feature Phone',
     'PlayStation Vita',
+)
+
+MOBILE_BROWSER_FAMILIES = (
+    'Firefox Mobile',
+    'Opera Mobile',
 )
 
 MOBILE_OS_FAMILIES = (
@@ -124,8 +119,9 @@ class UserAgent(object):
     def _is_android_tablet(self):
         # Newer Android tablets don't have "Mobile" in their user agent string,
         # older ones like Galaxy Tab still have "Mobile" though they're not
+
         if ('Mobile Safari' not in self.ua_string and
-                self.browser.family != "Firefox Mobile"):
+                self.browser.family not in MOBILE_BROWSER_FAMILIES):
             return True
         return False
 
